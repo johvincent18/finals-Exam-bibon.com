@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia Merchan Tagarao</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Header Section: Contains logo, navigation links, and cart icon -->
+    <header>
+        <a href="#">
+            <img src="logo.jpg" alt="Panaderia Merchan Logo" class="logo">
+        </a>
+        <!-- Menu icon -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!-- Navigation Links -->
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="customer.html">Customer Service</a></li>
+        </ul>
+        <!-- Cart Icon -->
+        <div class="header-icon" id="cart-icon">
+            <i class='bx bxs-cart-alt'></i>
+            <span class="cart-count" id="cart-count">0</span>
+        </div>
+        <!-- Search Box -->
+       
+      
+        
+    </header>
+
+        <!-- Product Section: Display the optionst of products available in the bakery -->
+         <section class="products" id="products">
+            <div class="heading">
+                <h2>Our popular Products</h2>
+            </div>
+            <!--Container-->    
+            <div class="cart">
+                <h2>Your Cart</h2>
+                <div id="cart-items"></div>
+                <div id="cart-total">Total: ₱0</div>
+            </div>
+            <div class="products-container">
+                <div class="box">
+                    <img src="1st cake.jpg" alt="">
+                    <h3> Sansrival Cake</h3>
+                    <div class="content">
+                         <span>₱999</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>Sans rival is a Filipino dessert cake made of layers of buttercream, meringue and chopped cashews. 
+                        Its name means "unrivaled" in French. 
+                        The cake may be decorated, left plain or garnished with pistachios. The cake's origins are disputed.</p>
+                </div>
+                <div class="box">
+                    <img src="2nd cake.jpg" alt="">
+                    <h3>Chiffon Cake</h3>
+                    <div class="content">
+                         <span>₱399</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>Chiffon is traditionally made much like an angel food cake,
+                         with sugar added to the egg whites in careful additions to make an extra-foamy meringue, 
+                         while the egg yolks are whisked into a thick batter with water, 
+                         oil, and flour. The two batters are then combined and baked.</p>
+                </div>
+                <div class="box">
+                    <img src="3rd.jpg" alt="">
+                    <h3>Chocolate Crinkles</h3>
+                    <div class="content">
+                         <span>₱15</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>Chocolate chip cookies are commonly made with white sugar; brown sugar; flour; salt; eggs; a leavening agent such as baking soda; a fat, 
+                        typically butter or shortening; vanilla extract; and chocolate pieces. Some recipes also include milk or nuts (such as chopped walnuts) in the dough.</p>
+                </div>
+                <div class="box">
+                    <img src="5.jpg" alt="Ube Crinkles" name="Ube" id="Ube">
+                    <h3> Ube Crinkles</h3>
+                    <div class="content"> 
+                         <span>₱15</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>Ube is a purple yam that originated in the Philippines.
+                         Ube has a brown, bark-like exterior and vibrant purple flesh. 
+                         Ube has a sweet, nutty flavor and aroma and is commonly used in desserts.</p>
+                </div>
+                <div class="box">
+                    <img src="6.jpg" alt="">
+                    <h3> Red Velvet Crinkles</h3>
+                    <div class="content">
+                         <span>₱15</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>Whisk together the flour, cocoa powder, baking soda, baking powder, and salt. In a separate mixing bowl, beat together the butter and sugar until light and fluffy.
+                         Add the egg and red food coloring and mix to combine. Add the dry ingredients and mix on low speed, just until combined.</p>
+                </div>
+                <div class="box">
+                    <img src="1.jpg" alt="">
+                    <h3>Ube Ensaymada</h3>
+                    <div class="content">
+                         <span>₱30</span>
+                        <a href="#">Add to cart</a>
+                    </div>  
+                    <p>While still warm, brush the ube ensaymada with more butter and sprinkle with sugar and grated cheese or shredded cheese (optional: pipe some ube jam on top)>  
+                </div>
+                <div class="box">
+                    <img src="7.jpg" alt="">
+                    <h3> Almond Ensaymada</h3>
+                    <div class="content">
+                         <span>₱55</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>The ensaïmada de Mallorca is made with strong flour, water, sugar, eggs, mother dough and a kind of reduced pork lard named saïm in Catalan,
+                         which gives the pastry its name.</p>
+                </div>
+                <div class="box">
+                    <img src="8.jpg" alt="">
+                    <h3> Cream Cheese Ensaymada</h3>
+                    <div class="content">
+                         <span>₱42</span>
+                        <a href="#">Add to cart</a>
+                    </div>  
+                    <p>Cream cheese is a soft, neutral-tasting cheese made from cow's milk and cream. Its subtle sweetness, mild tanginess,
+                         and silky smooth texture make it extremely versatile: 
+                        Spread it on a bagel, mix it into cookie dough or cake batter, or use it as a base for your next creamy frosting.</p>  
+                </div>
+                <div class="box">
+                    <img src="9.jpg" alt="">
+                    <h3> Quezo De Bola  Ensaymada</h3>
+                    <div class="content">
+                         <span>₱55</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>Ingredients and Allergens: Flour, Sugar, Eggs, Butter, Yeast, Salt, Milk, Queso De Bola. Related products. Mom's Ensaymadas </p>
+                </div>
+                <div class="box">
+                    <img src="10.jpg" alt="">
+                    <h3> Cheese roll</h3>
+                    <div class="content">
+                         <span>₱28</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>Cheese rolls are made from soft homemade roll dough and stuffed with ooey gooey cheese and savory spices. They are the perfect side to serve with dinner</p>
+                </div>
+                <div class="box">
+                    <img src="11.jpg" alt="">
+                    <h3> Cheesy Ensaymada</h3>
+                    <div class="content">
+                         <span>₱30</span>
+                        <a href="#">Add to cart</a>
+                    </div>   
+                    <p>Ingredients: * For the Dough: 3 cups Bread flour (405g) 3 tbsp white sugar (38g) 1/2 tsp salt (3g) 2 tsp active dry yeast (6g) 1 cup warm milk 3 tbsp unsalted butter,
+                         softened 1 large egg 2 tbsp McCormick Ube Flavor 
+                        * For the Topping: 3/4 cup unsalted butter, softened 170g 1/2 cup grated cheese (cheddar or your</p>
+                </div>
+                <div class="box">
+                    <img src="26.jpg" alt="">
+                    <h3> Cream Cheese Buns</h3>
+                    <div class="content">
+                         <span>₱42</span>
+                        <a href="#">Add to cart</a>
+                    </div> 
+                    <p>Cream buns are made by making soft yeast bread like dough that is shaped into round balls then baked. 
+                        When cooled it is filled with fresh whipped cream and topped with strawberry jam or a cherry. Much like doughnut dough, it has to be soft.</p>   
+                </div>
+                <div class="box">
+                    <img src="12.jpg" alt="">
+                    <h3> Hotdog Buns</h3>
+                    <div class="content">
+                         <span>₱40</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>MADE FROM: ENRICHED WHEAT FLOUR (FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, YEAST, SUGAR, DEHYDRATED POTATOES, SOYBEAN OIL, WHEAT GLUTEN, CONTAINS 2% OR LESS OF:
+                         DEXTROSE, NONFAT MILK, SALT, CALCIUM PROPIONATE AND SORBIC ACID TO EXTEND FRESHNESS, MALTED BARLEY FLOUR, CORN FLOUR, ...</p>
+                </div>
+                <div class="box">
+                    <img src="13.jpg" alt="">
+                    <h3> Cinnamon Roll</h3>
+                    <div class="content">
+                         <span>₱40</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p>INGREDIENTS: ENRICHED FLOUR BLEACHED (WHEAT FLOUR, NIACIN, FERROUS SULFATE, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SUGAR, PALM AND SOYBEAN OIL, DEXTROSE, 
+                        MARGARINE (PALM AND SOYBEAN OIL, WATER, SALT, WHEY, MONO AND DIGLYCERIDES, SOY LECITHIN, SODIUM BENZOATE [PRESERVATIVE], BETA CAROTENE [COLOR], ...</p>
+                </div>
+                <div class="box">
+                    <img src="14.jpg" alt="">
+                    <h3> Cinnamon Loaf</h3>
+                    <div class="content">
+                         <span>₱45</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                    <p> there are often small quantities of other ingredients which are added to improve the texture, 
+                        crumb structure and keeping properties of the bread. All ingredients in bread will be clearly listed on the wrapper.</p>
+                </div>
+                <div class="box">
+                    <img src="15.jpg" alt="">
+                    <h3> Chicken Floss</h3>
+                    <div class="content">
+                         <span>₱44</span>
+                        <a href="#">Add to cart</a>
+                    </div>   
+                    <p>Meat floss is made by stewing finely cut pork, chicken or beef (though other meats may be used) in a sweetened mixture of soy sauce and various spices until individual muscle fibers can be easily torn apart.</p> 
+                </div>
+                <div class="box">
+                    <img src="16.jpg" alt="">
+                    <h3> Spicy Pork Floss</h3>
+                    <div class="content">
+                         <span>₱44</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="17.jpg" alt="">
+                    <h3>Meaty Roll</h3>
+                    <div class="content">
+                         <span>₱68</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="18.jpg" alt="">
+                    <h3>Cheese Loaf</h3>
+                    <div class="content">
+                         <span>₱68</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="21.jpg" alt="">
+                    <h3>Pork Asado</h3>
+                    <div class="content">
+                         <span>₱25</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="20.jpg" alt="">
+                    <h3> Cheese Pandesal</h3>
+                    <div class="content">
+                         <span>₱23</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="19.jpg" alt="">
+                    <h3> Pan De Coco</h3>
+                    <div class="content">
+                         <span>₱16</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="22.jpg" alt="">
+                    <h3>Pan De Red</h3>
+                    <div class="content">
+                         <span>₱16</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="23.jpg" alt="">
+                    <h3>Manggo Twist/ Ube Twist</h3>
+                    <div class="content">
+                         <span>₱15</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="24.jpg" alt="">
+                    <h3>Pinoy Ensaymada</h3>
+                    <div class="content">
+                         <span>₱16</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="25.jpg" alt="">
+                    <h3>Pandesal Pack</h3>
+                    <div class="content">
+                         <span>₱45</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="Slider Buns.jpg" alt="">
+                    <h3> Slider Buns</h3>
+                    <div class="content">
+                         <span>₱42</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="27.jpg" alt="">
+                    <h3>Plain Loaf</h3>
+                    <div class="content">
+                         <span>₱60</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="28.jpg" alt="">
+                    <h3>Wheat Loaf</h3>
+                    <div class="content">
+                         <span>₱60</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="29.jpg" alt="">
+                    <h3>Raisin Loaf</h3>
+                    <div class="content">
+                         <span>₱60</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="Monggo Loaf.jpg" alt="">
+                    <h3> Monggo Loaf</h3>
+                    <div class="content">
+                         <span>₱60</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="31.jpg" alt="">
+                    <h3>Eggpie </h3>
+                    <div class="content">
+                         <span>₱32</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="32.jpg" alt="">
+                    <h3>Pianono</h3>
+                    <div class="content">
+                         <span>₱27</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="33.jpg" alt="">
+                    <h3>Hopia Baboy/Hopia Ube</h3>
+                    <div class="content">
+                         <span>₱12</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="34.jpg" alt="">
+                    <h3> Cheese Bar</h3>
+                    <div class="content">
+                         <span>₱38</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="35.jpg" alt="">
+                    <h3>Blueberyy Bar</h3>
+                    <div class="content">
+                         <span>₱20</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="36.jpg" alt="">
+                    <h3> Brownies Walnut</h3>
+                    <div class="content">
+                         <span>₱40</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+                <div class="box">
+                    <img src="37.jpg" alt="">
+                    <h3>Banana Cake mini</h3>
+                    <div class="content">
+                         <span>₱35</span>
+                        <a href="#">Add to cart</a>
+                    </div>    
+                </div>
+            </div>
+        </section>
+            <!-- Footer Section: Contains information about the company and contact details -->
+        <section class="footer">
+            <div class="footer-box">
+                <h2>Panaderia Merchan Tagarao</h2>
+                <p>🍞✨ Elevate your daily bread experience with our Plain Loaf! Made with premium ingredients and baked to perfection, it's the epitome of simplicity and deliciousness. Enjoy the soft, fluffy texture and savor the pure, unadulterated taste.
+                    — with Panaderia Merchan Quezon Avenue and Panaderia Merchan.</p>
+                    <div class ="social">
+                        <a href="https://www.facebook.com/profile.php?id=100081531111061"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="https://www.instagram.com/panaderiamerchantagarao/"><i class='bx bxl-instagram'></i></a>
+                    </div>
+            </div>
+            <div class="footer-box">
+                <h3>Support</h2>
+                <li><a href="product.html">Prudoct</a></li>
+                <li><a href="customer.html">Help & Support</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>View Guides</h2>
+                <li><a href="#">Feartures</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">Our Branches</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <div class="contact">
+                    <span><i class='bx bxs-map' ></i>Address : WJP6+Q44, M. L. Tagarao Street, Lucena, 4301 Quezon</span>
+                    <span><i class='bx bxs-phone-call' ></i>Phone : 0968-851-7051</span>
+                    <span><i class='bx bxs-envelope'></i>panaderiamerchan@yahoo.com</span>
+                </div>
+            </div>
+        </section>
+         <!--Copyright-->
+         <div class="Copyright">
+            <p>&copy; MidTerm Website Exam 2024 / All Rights Reserved.</p>
+        </div>
+        <script src="script.js"></script>
+    </body>    
+</html         

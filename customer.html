@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panaderia Merchan Tagarao </title>
+        <!--Link To CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!--Box Icons-->
+        <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="#">
+                <img src="logo.jpg" alt="" class="logo">
+            </a>
+            <!--menu icon-->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!-- Links-->
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="customer.html">Customers Service</a></li>
+            </ul>
+            <!--Icon-->
+            <div class="header-icon" id="cart-icon">
+              <i class='bx bxs-cart-alt'></i>
+              <span class="cart-count" id="cart-count">0</span>
+          </div>
+      
+        </header>
+            <!--custumers-->
+            <section class="customers" id="cutomers">
+                 <div class="heading">
+                    <h2>Our Customer's</h2>
+                </div>
+            <!--Container-->
+            <div class="customers-container">
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>They sell great bread, particularly ensaymada bread. They are also quite distinctive and reasonably priced, therefore I can conclude that their items are good quality and worth spending money on.</p>
+                    <h2>Daniel Padilla </h2>
+                    <img src="cusmtom1.jpg" alt="">
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>For individuals who enjoy ensaymandas, Panaderia Merchan Tagarao offers breads that are distinctive not only because they are outstandin.</p>
+                    <h2>Enrique Gil </h2>
+                    <img src="custom2.jpg" alt="">
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>Their breads are so great that I always come here for a snack because they have unique breads that aren't found in other pricey bakeries.</p>
+                    <h2>Alden Richards </h2>
+                    <img src="custom3.jpg" alt="">
+                </div>
+            </div>
+            <!--contact-->
+            <section id="contact-details" class="section-p1">
+                <div class="details">   
+                  <span>Get In Touch</span>
+                  <h2>Visit Our Location or Contact Us</h2>
+                  <h3>Shop Address</h3>
+                  <div class="contact-address">
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p><b>Address : WJP6+Q44, M. L. Tagarao Street, Lucena, 4301 Quezon</b></p>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-phone"></i>
+                      <p><b>Phone : 0968-851-7051</b></p>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-clock"></i>
+                      <p> <b>Hours/Date :</b><br>
+
+                        Monday:
+                        9:00AM–7:00PM<br>
+
+                        Tuesday:
+                        9:00AM–7:00PM<br>
+                        
+                        Wednesday
+                        9:00AM–7:00PM<br>
+                        
+                        Thursday
+                        9:00AM–7:00PM<br>
+                        
+                        Friday
+                        9:00AM–7:00PM<br>
+                        
+                        Saturday
+                        9:00AM–7:00PM<br>
+                        
+                        Sunday
+                        9:00AM–12:00AM<br>
+                        </p>
+                    
+                    </li>
+                  </div>
+                </div>
+          
+                <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!4v1734442171684!6m8!1m7!1sMws67GvdcAHrfmVSArZB2w!2m2!1d13.94081934593449!2d121.6145808949832!3f302.3357971130013!4f-2.2316871552248188!5f0.7820865974627469"
+                   width="600" 
+                   height="450" style="border:0;" 
+                   allowfullscreen="" loading="lazy" 
+                   referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </section>
+          
+              <section class="contact-container">
+                <h2>Contact Form</h2>
+                <form id="contact_form">
+                  <div class="contact-col">
+                    <label for="first_name">First Name</label>
+                    <input
+                      type="text"
+                      required
+                      maxlength="50"
+                      id="first_name"
+                      name="first_name"
+                    />
+          
+                    <label for="last_name">Last Name</label>
+                    <input
+                      type="text"
+                      required
+                      maxlength="50"
+                      id="last_name"
+                      name="last_name"
+                    />
+          
+                    <label for="email_addr" id="required"> Email address</label>
+                    <input
+                      type="email"
+                      maxlength="50"
+                      id="email_addr"
+                      name="email"
+                    />
+          
+                    <label for="phone_input">Phone</label>
+                    <input
+                      type="tel"
+                      required
+                      maxlength="50"
+                      id="phone_input"
+                      name="Phone"
+                    />
+          
+                    <label for="message">Message</label>
+                    <textarea
+                      class="contact-message"
+                      id="message"
+                      name="message"
+                      rows="5"
+                    ></textarea>
+          
+                    <div class="contact-btn">
+                      <button type="submit">Send</button>
+                    </div>
+                  </div>
+                </form>
+              </section>
+
+              <section class="footer">
+                <div class="footer-box">
+                    <h2>Panaderia Merchan Tagarao</h2>
+                    <p>🍞✨ Elevate your daily bread experience with our Plain Loaf! Made with premium ingredients and baked to perfection, it's the epitome of simplicity and deliciousness. Enjoy the soft, fluffy texture and savor the pure, unadulterated taste.
+                        — with Panaderia Merchan Quezon Avenue and Panaderia Merchan.</p>
+                        <div class ="social">
+                            <a href="https://www.facebook.com/profile.php?id=100081531111061"><i class='bx bxl-facebook-circle' ></i></a>
+                            <a href="https://www.instagram.com/panaderiamerchantagarao/"><i class='bx bxl-instagram'></i></a>
+                        </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Support</h2>
+                    <li><a href="product.html">Prudoct</a></li>
+                    <li><a href="customer.html">Help & Support</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                </div>
+                <div class="footer-box">
+                    <h3>View Guides</h2>
+                    <li><a href="#">Feartures</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog Posts</a></li>
+                    <li><a href="#">Our Branches</a></li>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <div class="contact">
+                        <span><i class='bx bxs-map' ></i>Address : WJP6+Q44, M. L. Tagarao Street, Lucena, 4301 Quezon</span>
+                        <span><i class='bx bxs-phone-call' ></i>Phone : 0968-851-7051</span>
+                        <span><i class='bx bxs-envelope'></i>panaderiamerchan@yahoo.com</span>
+                    </div>
+                </div>
+            </section>
+          <!--Copyright-->
+          <div class="Copyright">
+            <p>&copy; MidTerm Website Exam 2024 / All Rights Reserved.</p>
+        </div>
+        
+          <script src="script.js"></script>
+    </body>    
+</html>       

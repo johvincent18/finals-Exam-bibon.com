@@ -1,0 +1,67 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Apply Poppins font family across all elements */
+*{
+    font-family: "Poppins", sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box0;
+    scroll-padding-top:4rem ;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    }
+    /* CSS Variables for Colors and Shadows*/
+:root{
+    --main-color:#c6a049;
+    --second-color:#c6a049;
+    --text-color:#1f1a16;
+    --bg-color:#fff;
+    --one-color: #744308;
+    --box-shadow: 2px 2px 10px 4px rgb(14 55 54/ 15%);
+}   
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    height: 80px;
+    width: 70%;
+    background-color: #744308;
+    border-radius:  3px; 
+    margin: 30px 0px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.header .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+.fa-solid{
+    color: #744308;
+}
+.cart{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: #744308;
+    color: white;
+}
